@@ -18,7 +18,7 @@ export default function ResultDisplay() {
         )}
       </div>
       <div className="text-gray-500 dark:text-gray-300 text-lg">
-        Final $PROVE Price: <span className="font-bold text-gray-700 dark:text-gray-100">${result.finalPrice.toFixed(2)}</span>
+        Final $AIR Price: <span className="font-bold text-gray-700 dark:text-gray-100">${result.finalPrice.toFixed(2)}</span>
       </div>
       <div className="text-gray-500 dark:text-gray-300 text-base">
         Total Stars Won: <span className="font-bold text-blue-600 dark:text-blue-400">{result.totalStars} ⭐</span>

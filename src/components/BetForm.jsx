@@ -21,7 +21,7 @@ export default function BetForm() {
   return (
     <form onSubmit={handleSubmit} className="bg-white/80 dark:bg-gray-800/80 rounded-2xl shadow-xl p-8 max-w-lg mx-auto flex flex-col gap-8">
       <div className="text-center mb-2">
-        <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-100 mb-1">$PROVE Price</h2>
+        <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-100 mb-1"> Price</h2>
         <p className="text-4xl font-extrabold text-blue-600 dark:text-blue-400 mt-2 select-none">
           {/* Fiyat grafik fazında gösteriliyor */}
           <span className="text-base font-medium text-gray-400 dark:text-gray-500">(Live on chart)</span>
